@@ -171,19 +171,13 @@ export default function LoginPage() {
           padding: 0;
           min-height: 100vh;
           font-family: 'Segoe UI', sans-serif;
-          background-image: url('/images/desktop-bg.jpg');
+          background: 'white';
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
           display: flex;
           align-items: center;
           justify-content: center;
-        }
-
-        @media (max-width: 768px) {
-          .login-page {
-            background-image: url('/images/mobile-bg.jpg');
-          }
         }
 
         .login-overlay {
